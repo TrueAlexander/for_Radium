@@ -1,0 +1,42 @@
+body {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: blanchedalmond;
+  width: 100vw;
+  height: 100vh;
+}
+
+.applicant { 
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(114, 59, 34);
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px slategray;
+  background: rgb(250, 245, 238);
+  transition: all 0.7s ease;
+}
+
+.restart {
+  font-size: 1em;
+  background-color: rgb(250, 245, 238);
+  border-radius: 50%;
+  height: 65px;
+  position: fixed;
+  right: 60px;
+  top: 60px;
+}
+
+.applicant:hover {
+  color: #fff;
+  background: rgb(114, 59, 34);
+  text-shadow: 0 0 6px #fff;
+  transition: all 0.7s ease;
+}
+
+
+
